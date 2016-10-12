@@ -10,13 +10,13 @@
   <body>
     <div class="all-wrapper">
       <section class="top-section">
-        <header class="site-header container">
+        <header class="site-header">
           <div class="container">
             <div class="row">
               <div class="col-md-2 col-sm-2"><a href="#" class="logo"><img src="img/logo.png" alt=""/></a></div>
               <div class="col-md-10 col-sm-10">
                 <div class="top-links"><a href="#" class="top-links1">Egg Donor Program ></a><a href="#" class="top-links2">Surrogate Program ></a></div>
-                <nav class="main-nav">
+                <nav class="main-nav"><a href="#" class="main-nav__mobile"><span class="main-nav__mobile-icon"></span><span class="main-nav__mobile-icon"></span><span class="main-nav__mobile-icon"></span></a>
                   <ul class="main-nav__list">
                     <li class="main-nav__list-item"><a href="#">Home</a></li>
                     <li class="main-nav__list-item"><a href="#">For Parents</a></li>
@@ -32,8 +32,10 @@
               </div>
             </div>
             <div class="row top-text">
-              <h1 class="top-text__heading">Did you know Asian Egg <br> Donors are in High Demand?</h1>
-              <p class="top-text__p">For over a decade Family Creations has had the honor of helping hundreds of Asian couples fulfill their dream of Family.  For many reasons these couples are unable to use their own eggs and they are on a search for an egg donor who fits their cultural background.  </p>
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <h1 class="top-text__heading">Did you know Asian Egg <br> Donors are in High Demand?</h1>
+                <p class="top-text__p">For over a decade Family Creations has had the honor of helping hundreds of Asian couples fulfill their dream of Family.  For many reasons these couples are unable to use their own eggs and they are on a search for an egg donor who fits their cultural background.  </p>
+              </div>
             </div>
           </div>
         </header>
@@ -50,10 +52,10 @@
       <section class="about">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-sm-6">
-              <div class="video-container"><img src="img/video-bg.jpg" alt=""/><a href="#" class="open-video"><i class="play-button"></i></a></div>
+            <div class="col-md-6 col-sm-12">
+              <div class="video-container"><img src="img/video-bg.jpg" alt=""/><a href="https://www.youtube.com/watch?v=0O2aH4XLbto" class="open-video"><i class="play-button"></i></a></div>
             </div>
-            <div class="col-md-6 col-sm-6">
+            <div class="col-md-6 col-sm-12">
               <div class="text-container">
                 <h2>About Company</h2>
                 <p>Family Creations takes pride in our diverse group of egg donors. We are always looking to grow our database with donors of every cultural and ethnic background.  We have managed over a thousand egg donor cycles and have been operating for over a decade.  We take great pride in being one of the leading egg donor agencies around the globe. We offer competitive compensation which typically ranges between $7,000-$20,000 for our Asian egg donors.</p>
@@ -84,10 +86,10 @@
       <section class="apply">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-sm-6">
+            <div class="col-md-6 col-sm-12">
               <div class="img-side"><img src="img/apply-img.jpg" alt=""/></div>
             </div>
-            <div class="col-md-6 col-sm-6">
+            <div class="col-md-6 col-sm-12">
               <p>Family Creations seeks prospective donors who are healthy, non-smoking women between the ages of 20 and 29. We accept applications from donors all over the United States. Once you have completed the online application form, you will be contacted with further instructions. Family Creations takes the time to talk with you and educate you about the donation process, so you know exactly what to expect!</p><a href="#"> <span>Apply to be an Egg Donor</span></a>
             </div>
           </div>
@@ -105,8 +107,10 @@
     </div>
     <footer class="site-footer">
       <p>© 2015 Family Creations. All Rights Reserved.</p>
+      <div id="video-popup" class="zoom-anim-dialog mfp-hide video-popup__container"></div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/lib/lib.min.js"></script>
     <script src="js/main.min.js"></script>
   </body>
 </html>

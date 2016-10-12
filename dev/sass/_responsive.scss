@@ -1,0 +1,164 @@
+@media screen and (max-width: 1200px) {
+	.links-block a {
+		font-size: 14px;
+	}
+	section.about .text-container h2 {
+		margin: 0 0 15px;
+		padding-bottom: 25px;
+	}
+	section.about .text-container p {
+		font-size: 15px;
+		margin: 0;
+	}
+	.safety p {
+		max-width: 490px;
+	}
+	section.apply p {
+		margin: 0 0 15px;
+	}
+	section.apply a:before {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.top-links {
+		width: 100%;
+	}
+	.top-text {
+		padding: 100px 0;
+	}
+	.links-block {
+		height: auto;
+		padding: 30px 0 15px;
+	}
+	.links-block a {
+		position: static;
+		margin-bottom: 15px;
+	}
+	.links-block a:before {
+		display: none;
+	}
+	.links-block a {
+		font-size: 16px;
+	}
+	section.about .video-container img {
+		margin: 0 auto 20px;
+	}
+	.safety {
+		padding: 120px 0;
+	}
+	.safety p {
+		max-width: 390px;
+	}
+	section.apply img {
+		margin: 0 auto 20px;
+	}
+	section.apply a {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.logo {
+		margin: 15px auto;
+		text-align: center;
+	}
+	.top-links {
+		float: none;
+		margin-bottom: 15px;
+	}
+	.top-links a {
+		font-size: 15px;
+		padding: 0;
+		text-align: center;
+	}
+	.top-text {
+		padding: 20px 0;
+	}
+	.top-text__heading {
+		font-size: 25px;
+		line-height: 35px;
+		margin: 0 0 24px;
+		padding-bottom: 20px;
+	}
+	.main-nav {
+		background: #62ADC8;
+		&__list {
+			max-height: 0px;
+			overflow: hidden;
+			transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+			display: block;
+			a {
+				padding: 7px 10px;
+				margin: 2px 5px;
+				color: #fff;
+				font-size: 14px;
+				border: none;
+				display: block;
+				&:hover {
+					background: #009BD7;
+					color: #000;
+				}
+			}
+			&.active {
+				display: block;
+				max-height: 9999px;
+				transition: max-height 2s ease;
+			}
+		}
+		&__mobile {
+			display: inline-block;
+		}
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.links-block a {
+		font-size: 15px;
+	}
+	.safety {
+		background: url(../img/safety.jpg) 20% no-repeat;
+	}
+	section.apply a {
+		font-size: 14px;
+		padding-right: 35px;
+	}
+	.top-links a {
+		width: 100%;
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
